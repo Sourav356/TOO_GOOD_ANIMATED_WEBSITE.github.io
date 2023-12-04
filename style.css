@@ -13,6 +13,18 @@ html, body{
     height: 100%;
     width: 100%;
 }
+body{
+    background-color: #F7F7F7;
+}
+#cursor{
+    height: 200px;
+    width: 200px;
+    background-color: blanchedalmond;
+    position: fixed;
+    border-radius: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    opacity: 0.8;
+}
 #page1{
     min-height: 100vh;
     position: relative;
@@ -188,13 +200,28 @@ html, body{
 }
 
 
-#page3{
+#page4{
     min-height: 120vh;
     width: 100%;
-    background-color: #F7F7F7;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;   
 }
 
-
+.child{
+    height: 54vh;
+    width: 38vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;   
+}
+.child img{
+    height: 100%;
+    cursor: pointer;
+}
 
 
 
