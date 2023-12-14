@@ -312,7 +312,7 @@ body{
     padding: 3vw 2vw;
     display: flex;
     justify-content: space-between;
-    margin-top: 5vh;
+    margin-top: 3vh;
 }
 #page6 .elem6{
     height: 100%;
@@ -333,6 +333,49 @@ body{
     height: 100%;
     object-fit: cover;
 }
+#footer{
+    position: relative;
+    height: 120vh;
+    width: 100%;
+    background-color: #F7F7F7;
+    padding: 20px;
+}
+#input-tag{
+    width: 100%;
+    height: 8vh;
+}
+#input-tag input{
+    width: 98%;
+    height: 100%;
+    border: 1px solid black;
+    margin-left: 2vh;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    background-color: #F7F7F7;
+    font-size: 40px;
+    color: black;
+    font-family: futura;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+#input-tag textarea:focus, input:focus{
+    outline: none;
+}
+::placeholder{
+    color: black;
+    font-size: 40px;
+    font-family: futura;
+    font-weight: 900;
+}
+input:focus::placeholder {
+    color: transparent;
+}
+#container{
+    background-color: aqua;
+    height: 1200vh;
+}
+
 
 
 
@@ -340,6 +383,44 @@ body{
 
 
 @media (max-width:600px){
+    #nav{
+        width: 100%;
+        position: fixed;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        z-index: 99;
+        padding: 15px
+    }
+    #nav-part1{
+        /* background-color: crimson; */
+        height: 67px;
+        overflow: hidden;
+    }
+    #nav-part1 svg{
+        display: block;
+        height: 67px;
+        width: 82px;
+    }
+    #nav #twogoodlogo{
+        height: 40px;
+        margin-left: -20px;
+    }
+    #links{
+        padding: 5px;
+        display: none;
+    }
+    #icons{
+        padding: 7px;
+        border-radius: 50px;
+        background-color: #F7F7F7;
+    }
+    #nav-part2 #icons i{
+        font-size: 15px;
+        margin: 0 20px;
+        font-weight: 100;
+    }
+   
     #page1{
         width: 100%;
         padding: 0 3vw;
@@ -482,5 +563,62 @@ body{
     }
     #page2 .elem .dets:hover #hide{
         height: 200px;
+    }
+
+    #page4{
+        margin-top: 5vh;
+        min-height: 100vh;
+        width: 100%;
+    }
+    .child{
+        height: 25vh;
+        width: 35vw;
+    }
+    #page5{
+        height: 70vh;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vh;
+    }
+    .main-p{
+        text-align: center;
+        font-family: futura;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1;
+    }
+    #page5 button{
+        margin-top: 30vh;
+        padding: 20px 75px;
+        border-radius: 30px;
+    }
+    #page6{
+        height: 200vh;
+        width: 100%;
+        position: relative;
+        align-items: center;
+        padding: 3vw 2vw;
+        display: block;
+        justify-content: space-between;
+    }
+    #page6 .elem6{
+        height: 36%;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        /* display: flex; */
+    }
+    #page6 #elem7 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    #page6 #elem8 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 }
