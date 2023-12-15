@@ -104,7 +104,7 @@ body{
     height: 110vh;
 }
 #img #buy{
-    padding: 3.5vw 1vw;
+    padding: 3.5vw 1.5vw;
     background-color: rgba(0, 0, 0, 0.14);
     color: black;
     font-size: 1vw;
@@ -113,7 +113,7 @@ body{
     text-transform: uppercase;
     font-family: futura;
     border: 2px solid rgb(0, 255, 191);
-    border-radius: 70%;
+    border-radius: 90px;
     opacity: 0;
     scale: 0;
 }
@@ -243,6 +243,65 @@ body{
     border-bottom-right-radius: 20px;
     width: 100%;
 }
+#page3{
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#page3 .p3-elem{
+    height: 50vh;
+    width: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content:start;
+    margin-top: -3vh;
+}
+#page3 #p3-elem p{
+    font-size: 50px;
+    font-family: futura;
+    font-weight: bold;
+    line-height: 1;
+
+}
+#page3 #p3-elem1{
+    font-size: 18px;
+    display: block;
+    align-items: start;
+    justify-content: center;
+    text-align: justify;
+}
+#page3 #p3-elem1 p{
+    margin-left: 35vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+#page3 #p3-elem1 p a{
+    font-size: 14px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 200;
+    text-decoration: none;
+    color: black;
+    margin-top: 3vh;
+    position: relative;
+    
+}
+#page3 #p3-elem1 p a::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: black;
+    position: absolute;
+    right: 0;
+    bottom: -6px;
+    transition: 0.5s ease-in-out;
+}
+#page3 #p3-elem1 p a:hover::after{
+    width: 0;
+    left: 0;
+}
 
 
 #page4{
@@ -321,6 +380,7 @@ body{
     position: relative;
     justify-content: center;
     align-items: center;
+    scale: 1;
     /* display: flex; */
 }
 #page6 #elem7 img{
