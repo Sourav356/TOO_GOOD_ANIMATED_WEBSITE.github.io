@@ -491,7 +491,7 @@ input:focus::placeholder {
 
 
 
-@media (max-width:600px){
+@media only screen and (max-width:600px){
     #nav{
         width: 100%;
         position: fixed;
@@ -582,7 +582,7 @@ input:focus::placeholder {
     #page2 .elem{
         height: 100vh;
         width: 100%;
-        margin-bottom: -25vh;
+        margin-bottom: -17vh;
         overflow: hidden;
     }
     #page2 .elem img{
@@ -674,6 +674,42 @@ input:focus::placeholder {
         height: 200px;
     }
 
+    #page3{
+        height: 65vh;
+        width: 100%;
+        display: block;
+        align-items: center;
+    }
+    #page3 .p3-elem{
+        height: 30vh;
+        width: 100%;
+        display: block;
+        align-items: center;
+        justify-content:center;
+    }
+    #page3 #p3-elem p{
+        margin-top: 150px;
+        align-items: center;
+        font-size: 24px;
+        font-family: futura;
+        font-weight: bold;
+        line-height: 1;
+    
+    }
+    #page3 #p3-elem1{
+        font-size: 18px;
+        margin-top: -80px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+    }
+    #page3 #p3-elem1 p{
+        margin-left: 0vh;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    
+    }
     #page4{
         margin-top: 5vh;
         min-height: 100vh;
@@ -689,6 +725,7 @@ input:focus::placeholder {
         align-items: center;
         justify-content: center;
         margin-top: 5vh;
+        margin-bottom: 10vh;
     }
     .main-p{
         text-align: center;
@@ -703,31 +740,121 @@ input:focus::placeholder {
         border-radius: 30px;
     }
     #page6{
-        height: 200vh;
+        height: 130vh;
         width: 100%;
         position: relative;
         align-items: center;
-        padding: 3vw 2vw;
+        padding: 1vw 2vw;
         display: block;
-        justify-content: space-between;
+        justify-content:center;
     }
     #page6 .elem6{
-        height: 36%;
+        height: 45%;
         width: 100%;
         overflow: hidden;
         position: relative;
         justify-content: center;
         align-items: center;
-        /* display: flex; */
     }
     #page6 #elem7 img{
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        object-fit:cover;
+        scale: 0.9;
     }
     #page6 #elem8 img{
         width: 100%;
         height: 100%;
         object-fit: cover;
+        scale: 0.9;
+    }
+    #page6 .meadia-add{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 5vh;
+    }
+    #footer{
+        min-height: 81vh;
+        width: 100%;
+        background-color: #F7F7F7;
+        padding: 10px;
+        margin-top: -18vh;
+    }
+    #input-tag{
+        width: 100%;
+        height: 8vh;
+    }
+    #input-tag input{
+        width: 97%;
+        height: 100%;
+        border: 1px solid black;
+        margin-left: 1vh;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        background-color: #F7F7F7;
+        font-size: 30px;
+        color: black;
+        font-family: futura;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    ::placeholder{
+        color: black;
+        font-size: 15px;
+        font-family: futura;
+        font-weight: 900;
+    }
+    #logo{
+        margin-top: 1vh;
+        height: 350px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #logo .elem10{
+        height: 210px;
+        width: 200px;
+    }
+    #elem9 h6{
+        margin-top: 5vh;
+        font-size: 10px;
+        color: #585454d1;
+        margin-bottom: 2vh;
+    }
+    #elem9 ul li{
+        list-style: none;
+        line-height: 1.5;
+        cursor: pointer;
+        font-size: 13.5px;
+    }
+    #elem9-1 img{
+        height: 100px;
+        width: 100px;
+        margin-top: 5vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #copyright{
+        margin-top: -7vh;
+        width: 100%;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        color: #585454d1;
+    }
+    #disclamer{
+        width: 90%;
+        font-size: 18px;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8vh;
     }
 }
