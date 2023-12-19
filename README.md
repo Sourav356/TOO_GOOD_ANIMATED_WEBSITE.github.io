@@ -41,7 +41,7 @@ Open the project in your preferred code editor.
 Open the HTML files in a web browser to view the landing pages.
 
 
-OR you can access the website by : 
+OR you can access the website by : https://sourav356.github.io/TOO_GOOD_ANIMATED_WEBSITE.github.io/
 
 
 **Additional Notes:**
